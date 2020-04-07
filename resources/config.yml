@@ -28,7 +28,7 @@ JoinMessage: " welcome"
 PluginEnable: "Pluginul a pornit!"
 
 
-#	Join Effect - WORKING | In lucru !!!!!!!!!!!!!!! - soon - in next update
+#	Join Effect
 #
 #	ids	effect
 #	↓	↓
@@ -60,3 +60,21 @@ PluginEnable: "Pluginul a pornit!"
 #	26	Luck
 #	27	Bad Luck
 JoinEffect: 1
+
+#
+#	Join Effect Duration
+#
+#		|	|	|	|
+#		↓	↓	↓	↓
+Duration: 30
+
+#
+# Join Effect Level
+#
+#		|	|	|	|
+#		↓	↓	↓	↓
+Level: 1
+
+
+
+...
