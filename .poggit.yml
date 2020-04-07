@@ -4,5 +4,5 @@ branches:
 - master
 projects:
   CustomJoin:
-    path: "icon.png"
+    path: "icon"
 ...
