@@ -18,14 +18,15 @@
 #
 #		|	|	|	|
 #		↓	↓	↓	↓
-JoinMessage: " welcome"
+JoinMessage1: "Welcome back "
+JoinMessage2: "! Have Fun."
 
 #
 #	Enable Plugin Message
 #
 #		|	|	|	|
 #		↓	↓	↓	↓
-PluginEnable: "Pluginul a pornit!"
+PluginEnable: "Custom Plugin Enabled"
 
 
 #	Join Effect
