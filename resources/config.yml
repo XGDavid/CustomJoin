@@ -5,7 +5,7 @@
 
 #	Join Message
 #
-#	#RO - SYNTAX in main: ($name . $config(" welcome")) !! - nu este chiar asa, est eun exemplu.
+#	#RO - SYNTAX in main: ($name . $config(" welcome")) !! - nu este chiar asa, este un exemplu.
 #		- aceasta functie schimba si in consola
 #		- Disable = sterge tot din "".
 #		[!] - trebuie sa puneti un "spatiu" inainte de mesaj.
