@@ -7,7 +7,7 @@
 - Join Effect
 - Custom Plugin Enable Message
 
-● Updates:
+##● Updates:
 - 1.0.0 = start plugin | 06.04.2020 
 - 1.0.1 = add config for Join Effect | 07.04.2020
 - 1.0.2 = add 2 config: JoinMessage 1 & JoinMessage2 | 13.04.2020
