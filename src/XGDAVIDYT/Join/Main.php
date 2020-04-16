@@ -1,9 +1,7 @@
 <?php
 
 /*
- * Please do not remove ANY Code/Modify or Copy!
- * Standard Copyright License applied.
- * All rights reserved XGTeam ©2020
+ *h All rights reserved XGTeam ©2020
  * www.youtube.com/xgdavid
  */
 
@@ -27,8 +25,6 @@ class Main extends PluginBase implements Listener{
     public function onEnable() : void{
         $this->saveResource("config.yml");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->info("§6§l§kiii§r§6[TCG]§a JoinEffectAndMessage has enabled. §6§l§kiii§r§6");
-        $this->getLogger()->info("§6§l§kiii§r§6[TCG]§a Thx for use plugin. Plugin by XGDAVIDYT §6§l§kiii§r§6");
         $this->getLogger()->info($this->getConfig()->get("PluginEnable"));
     } 
 
