@@ -5,28 +5,11 @@
 
 #	Join Message
 #
-#	#RO - SYNTAX in main: ($name . $config(" welcome")) !! - nu este chiar asa, este un exemplu.
-#		- aceasta functie schimba si in consola
-#		- Disable = sterge tot din "".
-#		[!] - trebuie sa puneti un "spatiu" inainte de mesaj.
-#
-#	#EN - SYNTAX in main: ($name . $config(" welcome")) !! - it is not so, it is an example. 
-#		- this function also changes in the console
-#		- Disable = delete everything from "".
-#		[!] - you must put a "space" before the message.
-#	
+# {$name} = player name
 #
 #		|	|	|	|
 #		↓	↓	↓	↓
-JoinMessage1: "Welcome back "
-JoinMessage2: "! Have Fun."
-
-#
-#	Enable Plugin Message
-#
-#		|	|	|	|
-#		↓	↓	↓	↓
-PluginEnable: "Custom Plugin Enabled"
+JoinMessage: "§a {$name} §ewelcome!"
 
 
 #	Join Effect
@@ -64,6 +47,7 @@ JoinEffect: 1
 
 #
 #	Join Effect Duration
+# in seconds
 #
 #		|	|	|	|
 #		↓	↓	↓	↓
