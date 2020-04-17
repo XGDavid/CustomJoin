@@ -35,14 +35,15 @@ class Main extends PluginBase implements Listener{
         $player = $event->getPlayer();
         $name = $player->getName();
         $joineffect = $this->getConfig()->get("JoinEffect");
-        $joinmessage = $this->getConfig()->get("JoinMessage");
+        $joinmessage1 = $this->getConfig()->get("JoinMessage1");
+        $joinmessage2 = $this->getConfig()->get("JoinMessage2");
         $duration = $this->getConfig()->get("Duration");
         $level = $this->getConfig()->get("Level");
         $effect = new EffectInstance(Effect::getEffect($joineffect), 20 * $duration, $level); //10 = effect - ticks * time - level
         
         $effect->setVisible(false);
         $player->addEffect($effect);
-        $event->setJoinMessage($joinmessage);
+        $event->setJoinMessage($joinmessage1 . $name . $joinmessage2);
         
 
     return true;
