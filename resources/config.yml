@@ -9,7 +9,8 @@
 #
 #		|	|	|	|
 #		↓	↓	↓	↓
-JoinMessage: "§a {$name} §ewelcome!"
+JoinMessage1: "§aHello "
+JoinMessage2: "§e Have fun!"
 
 
 #	Join Effect
